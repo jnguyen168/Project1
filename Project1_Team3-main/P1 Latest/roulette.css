@@ -1,0 +1,60 @@
+body{
+    background-image: url("rouletteback.jpeg");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+h1{
+    text-align: center;
+    color: orange;
+    animation-name: moveleft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+
+}
+@keyframes moveleft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    80%{
+        transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+    
+}
+h2{
+    text-align: center;
+    color: orange;
+    animation-name: moveleft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+.roulettegame{
+    display: flex;
+    padding: 0;
+    
+}
+.roulette{
+    position: relative;
+    align-items: center;
+    transform: translate(30em, 10em) scale(2);
+
+}
+.home{
+    position: absolute;
+    color: yellow;
+    transform: translate(82em,21em);
+}
+.navigation{
+    position: absolute;
+    color: yellow;
+    transform: translate(82em,23em);
+    
+}

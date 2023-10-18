@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="bjstyles.css">
+</head>
+
+<body>
+    <input type="checkbox" id="standCheckbox" style="display: none;">
+
+    <div class="container">
+        <div class="hand dealer">
+            <h2>Dealer's Hand</h2>
+            <div class="card-d1"></div>
+            <div class="card flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front facedown"></div>
+                    <div class="flip-card-back face">7</div>
+                </div>
+            </div>
+            <div class="card flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front facedown"></div>
+                    <div class="flip-card-back face">5</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hand player">
+            <h2>Player's Hand</h2>
+            <div class="card-p1"></div>
+            <div class="card-p2"></div>
+        </div>
+
+        <div class="actions">
+            <button class="action-button no-click-effect">Hit</button>
+            <button class="action-button no-click-effect">Double</button>
+            <label for="standCheckbox" class="action-button">Stand</label>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

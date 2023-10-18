@@ -1,0 +1,75 @@
+body {
+	background-image: url('background3.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	}
+
+.box {
+  height: 980px;
+  width: 735px;
+  position: relative;
+  left: 862.5px;
+  top: 250px;
+  
+  }
+.logo-text {
+    font-family: 'Brush Script MT', cursive, sans-serif;
+    font-size: 60px;
+    color: #FF9B00; 
+    text-transform: uppercase;
+    letter-spacing: 4px;
+	text-shadow: 3px 3px #52BE80 ;
+	text-align: center;
+	margin-top:-130px;
+}
+ .container1 {
+    position: absolute;
+	right:855px;
+	top: 155px;
+        }
+ .container2 {
+    position: absolute;
+	left:900px;
+	top: 155px;
+}
+ .container3 {
+    position: absolute;
+	right:680px;
+	top: 50px;
+}		
+.navigate {
+	font-family: 'Brush Script MT', sans-serif;
+	font-size: 30px;
+    width: 200px;
+    background-color: #52BE80;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+	opacity: .6;
+	display: inline-block;
+	margin: 82px;
+}
+.navigate2 {
+	font-family: 'Brush Script MT', sans-serif;
+	font-size: 30px;
+    width: 200px;
+    background-color: #52BE80;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+	opacity: .6;
+	display: inline-block;
+	margin: 82px;
+}
+
+ .navigate:hover {
+    background-color: #FF9B00;
+	opacity: .6;
+
+}

@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    background-image: url('background3.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+        
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: grey;
+    opacity: 80%;
+}
+
+h1 {
+    text-align: center;
+    font-style: oblique;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+p {
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0 0 10px 20px;
+}
+
+a {
+    color: orangered;
+}
+img{
+    width: 33%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: right;
+    position: relative;
+    left: 400px;
+    bottom: 300px;  
+}

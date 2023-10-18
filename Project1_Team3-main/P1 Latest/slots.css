@@ -1,0 +1,76 @@
+body{
+    background-image: url("slotsbackground.png");
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+}
+h1{
+    text-align: center;
+    color: orange;
+    animation-name: moveleft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+
+}
+@keyframes moveleft {
+    0%{
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    80%{
+        transform: translateX(50px);
+    }
+    100%{
+        opacity: 1;
+        transform: translate(0);
+    }
+
+
+    
+}
+h2{
+    text-align: center;
+    color: orange;
+    animation-name: moveleft;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+.machine{
+    display: flex;
+    padding: 0;
+    
+}
+.slot1{
+    position: relative;
+    float: left;
+    opacity: 0.9;
+    padding: 0;
+    transform: translateX(6.5em) scale(0.7);
+
+}
+.slot2{
+    position: relative;
+    float: right;
+    opacity: 0.9;
+    padding: 0;
+    transform: translate(-4em, 1em) scale(0.7);
+}
+.slot3{
+    position: relative;
+    float: right;
+    opacity: 0.9;
+    padding: 0;
+    transform: translateY(4.5em);
+}
+.home{
+    position: absolute;
+    color: yellow;
+    transform: translate(50em,40em);
+}
+.navigation{
+    position: absolute;
+    color: yellow;
+    transform: translate(50em,42em);
+    
+}

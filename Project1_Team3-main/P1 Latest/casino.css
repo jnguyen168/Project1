@@ -1,0 +1,101 @@
+body {
+	background-image: url('slots.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	}
+	h1{
+		text-align: center;
+		color: orange;
+		animation-name: moveleft;
+		animation-duration: 2s;
+		animation-timing-function: ease-out;
+	
+	}
+	@keyframes moveleft {
+		0%{
+			opacity: 0;
+			transform: translateX(-100px);
+		}
+		80%{
+			transform: translateX(50px);
+		}
+		100%{
+			opacity: 1;
+			transform: translate(0);
+		}
+	
+	
+		
+	}
+	h2{
+		text-align: center;
+		color: orange;
+		animation-name: moveleft;
+		animation-duration: 2s;
+		animation-timing-function: ease-out;
+	}
+	.games{
+		display: flex;
+		padding: 0;
+		
+	}
+	.game1{
+		position: relative;
+		float: left;
+		opacity: 0.9;
+		padding: 0;
+		transform: translate(-10.5em,8em) scale(0.5);
+	
+	}
+	.gamelink1{
+		position: absolute;
+		color: white;
+		font-size: 50pt;
+		transform: translate(4.5em,-1.5em);
+	}
+	.gamelink2{
+		position: absolute;
+		color: white;
+		font-size: 38pt;
+		transform: translate(-0.3em,-1.4em);
+	}
+	.gamelink3{
+		position: absolute;
+		color: white;
+		font-size: 38pt;
+		transform: translate(2.5em,-1.5em);
+	}
+	.gamelink4{
+		position: absolute;
+		color: white;
+		font-size: 38pt;
+		transform: translate(3em,-1.5em);
+	}
+	.game2{
+		position: relative;
+		float: right;
+		opacity: 0.9;
+		padding: 0;
+		transform: translate(-4.6em, 16em) scale(0.7);
+	}
+	.game3{
+		position: relative;
+		float: right;
+		opacity: 0.9;
+		padding: 0;
+		transform: translate(9em,11.5em) scale(0.75) ;
+	}
+	.game4{
+		position: relative;
+		float: right;
+		opacity: 0.9;
+		padding: 0;
+		transform: translate(-50em,40em) scale(0.75) ;
+	}
+	.home{
+		position: absolute;
+		color: yellow;
+		transform: translate(85em,30em);
+	}
